@@ -9,20 +9,19 @@
 <body>
     <h1> Formulários de Cadastro </h1>
     <form>
-        <label> Nome </label>
-        <input type="Nome" />
+        <label for="nome" >Nome</label>
+        <input id = "nome" type="text" placeholder="Digite seu Nome" required/>
         <br />
         <br />
         <label for="E-mail">E-mail </label>
-        <input id="E-mail" type="E-mail" />
+        <input id="E-mail" type="email" placeholder="Digite seu e-mail" required/>
         <br />
         <br />
-        <label> Senha </label>
-        <input type="Senha" />
+        <label for="password" > Senha </label>
+        <input id="password" type="password" placeholder="Senha" required/>
         <br />
         <br />
-        <button>
-            Cadastrar
+        <button type="submit" onclick="Cadastrar" >Cadastrar</button>
         </button>
     </form>
 </body>
